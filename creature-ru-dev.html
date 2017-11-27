@@ -1,0 +1,2455 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Haven & Hearth / Creatures</title>
+	<style type="text/css">
+		TD, TH {
+			border: 1px solid #000000;
+			padding: 5px;
+		}
+		
+		.td-image {
+			text-align: center;
+		}
+		
+		.td-change {
+			background-color: #ffdead;
+		}
+	</style>
+</head>
+<body>
+
+<strong><u>В мире животных (ru dev)</u></strong>
+<br />
+<br />
+Миникарта - иконка животного на маленькой карте.
+<br />
+small - назначение данных неизвестно.
+<br />
+Прайд - список существющих животных на основе файла tooltip. Иконки имеют только те животные которые могут быть помещены в любой контейнер.
+<br />
+<span class="td-change">resource</span> - результат проверки наличия ресурса на сервере H&H не зависимо от наличия ключей в файлах локализации.
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+yes - файл ресурса существует, самое время обновить файлы локализации
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+no - файл ресурса не существует
+<br />
+<br />
+<table>
+<tr>
+	<th colspan="2">Миникарта</th>
+	<th colspan="2">small</th>
+	<th colspan="4">Прайд</th>
+	<th colspan="2">Мертвый</th>
+	<th colspan="2">Тушка (свежая)</th>
+	<th colspan="2">Тушка (выпотрошенная)</th>
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+					<img src="/image/gfx/kritter/adder/icon.png" alt="adder" />
+			</td>
+	<td  >
+		Гадюка					<br />			<small>adder</small>
+							<br />
+				<small>gfx/kritter/adder/icon</small>
+									</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>adder</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>adder</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>adder</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/adder-dead.png" alt="adder" />
+			</td>
+	<td >
+		Мертвая гадюка					<br />			<small>adder</small>
+							<br />
+				<small>gfx/invobjs/adder-dead</small>
+									</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/adder-carcass.png" alt="adder" />
+			</td>
+	<td  >
+		Тушка гадюки					<br />			<small>adder</small>
+							<br />
+				<small>gfx/invobjs/adder-carcass</small>
+									</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/adder-clean.png" alt="adder" />
+			</td>
+	<td  >
+		Выпотрошенная тушка гадюки					<br />			<small>adder</small>
+							<br />
+				<small>gfx/invobjs/adder-clean</small>
+									</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>aurochs</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>aurochs</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>aurochs</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>aurochs</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>aurochs</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>aurochs</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>aurochs</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>badger</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>badger</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>badger</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>badger</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>badger</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>badger</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>badger</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>bat</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>bat</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>bat</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>bat</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/bat-dead.png" alt="bat" />
+			</td>
+	<td >
+		Мертвая летучая мышь					<br />			<small>bat</small>
+							<br />
+				<small>gfx/invobjs/bat-dead</small>
+									</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>bat</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/bat-clean.png" alt="bat" />
+			</td>
+	<td  >
+		Выпотрошенная летучая мышь					<br />			<small>bat</small>
+							<br />
+				<small>gfx/invobjs/bat-clean</small>
+									</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>bear</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/small/bear.png" alt="bear" />
+			</td>
+	<td  >
+		Кабан					<br />			<small>bear</small>
+							<br />
+				<small>gfx/invobjs/small/bear</small>
+									</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>bear</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>bear</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>bear</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>bear</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>bear</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+					<img src="/image/gfx/kritter/beaver/icon.png" alt="beaver" />
+			</td>
+	<td  >
+		Бобер					<br />			<small>beaver</small>
+							<br />
+				<small>gfx/kritter/beaver/icon</small>
+									</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>beaver</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>beaver</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>beaver</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>beaver</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>beaver</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>beaver</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>boar</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/small/boar.png" alt="boar" />
+			</td>
+	<td  >
+		Медведь					<br />			<small>boar</small>
+							<br />
+				<small>gfx/invobjs/small/boar</small>
+									</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>boar</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>boar</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>boar</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>boar</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>boar</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>boreworm</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>boreworm</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>boreworm</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>boreworm</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>boreworm</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>boreworm</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>boreworm</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>cow</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>cow</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>cow</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>cow</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>cow</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>cow</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>cow</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td rowspan="4" class="td-image">
+			</td>
+	<td rowspan="4" class="td-change">
+										<small>chicken</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td rowspan="4" class="td-image">
+			</td>
+	<td rowspan="4" >
+										<small>chicken</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td rowspan="4" class="td-image">
+			</td>
+	<td rowspan="4" >
+										<small>chicken</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/rooster.png" alt="chicken" />
+			</td>
+	<td >
+		Петух					<br />			<small>chicken</small>
+							<br />
+				<small>gfx/invobjs/rooster</small>
+									</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/rooster-dead.png" alt="chicken" />
+			</td>
+	<td >
+		Мертвый петух					<br />			<small>chicken</small>
+							<br />
+				<small>gfx/invobjs/rooster-dead</small>
+									</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td rowspan="4" class="td-image">
+					<img src="/image/gfx/invobjs/chicken-plucked.png" alt="chicken" />
+			</td>
+	<td rowspan="4" >
+		Ощипаная курица					<br />			<small>chicken</small>
+							<br />
+				<small>gfx/invobjs/chicken-plucked</small>
+									</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td rowspan="4" class="td-image">
+					<img src="/image/gfx/invobjs/chicken-cleaned.png" alt="chicken" />
+			</td>
+	<td rowspan="4" >
+		Выпотрошенная курица					<br />			<small>chicken</small>
+							<br />
+				<small>gfx/invobjs/chicken-cleaned</small>
+									</td>
+	<!-- /cleaned -->
+</tr>
+		<tr>
+		<!-- pride-c-2 -->
+		<td class="td-image">
+							<img src="/image/gfx/invobjs/hen.png" alt="chicken" />
+					</td>
+		<td >
+			Курица							<br />				<small>chicken</small>
+									<br />
+					<small>gfx/invobjs/hen</small>
+													</td>
+		<!-- /pride-c-2 -->
+		<!-- dead -->
+		<td class="td-image">
+							<img src="/image/gfx/invobjs/hen-dead.png" alt="chicken" />
+					</td>
+		<td >
+			Мертвая курица							<br />				<small>chicken</small>
+									<br />
+					<small>gfx/invobjs/hen-dead</small>
+													</td>
+		<!-- /dead -->
+	</tr>
+		<tr>
+		<!-- pride-c-2 -->
+		<td class="td-image">
+							<img src="/image/gfx/invobjs/chick.png" alt="chicken" />
+					</td>
+		<td >
+			Цыпленок							<br />				<small>chicken</small>
+									<br />
+					<small>gfx/invobjs/chick</small>
+													</td>
+		<!-- /pride-c-2 -->
+		<!-- dead -->
+		<td class="td-image">
+							<img src="/image/gfx/invobjs/chick-dead.png" alt="chicken" />
+					</td>
+		<td >
+			Кровавое месиво...							<br />				<small>chicken</small>
+									<br />
+					<small>gfx/invobjs/chick-dead</small>
+													</td>
+		<!-- /dead -->
+	</tr>
+		<tr>
+		<!-- pride-c-2 -->
+		<td class="td-image">
+							<img src="/image/gfx/invobjs/egg-chicken.png" alt="chicken" />
+					</td>
+		<td >
+			Куриное яйцо							<br />				<small>chicken</small>
+									<br />
+					<small>gfx/invobjs/egg-chicken</small>
+													</td>
+		<!-- /pride-c-2 -->
+		<!-- dead -->
+		<td class="td-image">
+					</td>
+		<td >
+														<small>chicken</small>
+													<br />
+					<small>resource: no</small>
+									</td>
+		<!-- /dead -->
+	</tr>
+	<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>crab</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/small/crab.png" alt="crab" />
+			</td>
+	<td  >
+		Краб					<br />			<small>crab</small>
+							<br />
+				<small>gfx/invobjs/small/crab</small>
+									</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/crab.png" alt="crab" />
+			</td>
+	<td  >
+		Краб					<br />			<small>crab</small>
+							<br />
+				<small>gfx/invobjs/crab</small>
+									</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/crab.png" alt="crab" />
+			</td>
+	<td >
+		Краб					<br />			<small>crab</small>
+							<br />
+				<small>gfx/invobjs/crab</small>
+									</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>crab</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>crab</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>crab</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>fox</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>fox</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>fox</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>fox</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>fox</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>fox</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>fox</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+					<img src="/image/gfx/kritter/ooze/greenoozeicon.png" alt="ooze" />
+			</td>
+	<td  >
+		Пещерный слизень					<br />			<small>ooze</small>
+							<br />
+				<small>gfx/kritter/ooze/greenoozeicon</small>
+									</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>ooze</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>ooze</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>ooze</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>ooze</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>ooze</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>ooze</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+					<img src="/image/gfx/kritter/hedgehog/icon.png" alt="hedgehog" />
+			</td>
+	<td  >
+		Ёж					<br />			<small>hedgehog</small>
+							<br />
+				<small>gfx/kritter/hedgehog/icon</small>
+									</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>hedgehog</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/hedgehog.png" alt="hedgehog" />
+			</td>
+	<td  >
+		Ёж					<br />			<small>hedgehog</small>
+							<br />
+				<small>gfx/invobjs/hedgehog</small>
+									</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/hedgehog.png" alt="hedgehog" />
+			</td>
+	<td >
+		Ёж					<br />			<small>hedgehog</small>
+							<br />
+				<small>gfx/invobjs/hedgehog</small>
+									</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/hedgehog-dead.png" alt="hedgehog" />
+			</td>
+	<td >
+		Мертвый ёжик					<br />			<small>hedgehog</small>
+							<br />
+				<small>gfx/invobjs/hedgehog-dead</small>
+									</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/hedgehog-carcass.png" alt="hedgehog" />
+			</td>
+	<td  >
+		Тушка ежа					<br />			<small>hedgehog</small>
+							<br />
+				<small>gfx/invobjs/hedgehog-carcass</small>
+									</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/hedgehog-clean.png" alt="hedgehog" />
+			</td>
+	<td  >
+		Выпотрошенная тушка ежа					<br />			<small>hedgehog</small>
+							<br />
+				<small>gfx/invobjs/hedgehog-clean</small>
+									</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>horse</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>horse</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>horse</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>horse</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>horse</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>horse</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>horse</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>lynx</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>lynx</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>lynx</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>lynx</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>lynx</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>lynx</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>lynx</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>magpie</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>magpie</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/magpie.png" alt="magpie" />
+			</td>
+	<td  >
+		Сорока					<br />			<small>magpie</small>
+							<br />
+				<small>gfx/invobjs/magpie</small>
+									</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/magpie.png" alt="magpie" />
+			</td>
+	<td >
+		Сорока					<br />			<small>magpie</small>
+							<br />
+				<small>gfx/invobjs/magpie</small>
+									</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/magpie-dead.png" alt="magpie" />
+			</td>
+	<td >
+		Мертвая сорока					<br />			<small>magpie</small>
+							<br />
+				<small>gfx/invobjs/magpie-dead</small>
+									</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/magpie-plucked.png" alt="magpie" />
+			</td>
+	<td  >
+		Ощипанная сорока					<br />			<small>magpie</small>
+							<br />
+				<small>gfx/invobjs/magpie-plucked</small>
+									</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/magpie-cleaned.png" alt="magpie" />
+			</td>
+	<td  >
+		Выпотрошенная сорока					<br />			<small>magpie</small>
+							<br />
+				<small>gfx/invobjs/magpie-cleaned</small>
+									</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td rowspan="2" class="td-image">
+			</td>
+	<td rowspan="2" >
+										<small>mallard</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td rowspan="2" class="td-image">
+			</td>
+	<td rowspan="2" >
+										<small>mallard</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td rowspan="2" class="td-image">
+			</td>
+	<td rowspan="2" >
+										<small>mallard</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/mallard-m.png" alt="mallard" />
+			</td>
+	<td >
+		Селезень					<br />			<small>mallard</small>
+							<br />
+				<small>gfx/invobjs/mallard-m</small>
+									</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/mallard-dead-m.png" alt="mallard" />
+			</td>
+	<td >
+		Мертвый селезень					<br />			<small>mallard</small>
+							<br />
+				<small>gfx/invobjs/mallard-dead-m</small>
+									</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td rowspan="2" class="td-image">
+					<img src="/image/gfx/invobjs/mallard-plucked.png" alt="mallard" />
+			</td>
+	<td rowspan="2" >
+		Ощипаная утка					<br />			<small>mallard</small>
+							<br />
+				<small>gfx/invobjs/mallard-plucked</small>
+									</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td rowspan="2" class="td-image">
+					<img src="/image/gfx/invobjs/mallard-cleaned.png" alt="mallard" />
+			</td>
+	<td rowspan="2" >
+		Выпотрошенная утка					<br />			<small>mallard</small>
+							<br />
+				<small>gfx/invobjs/mallard-cleaned</small>
+									</td>
+	<!-- /cleaned -->
+</tr>
+		<tr>
+		<!-- pride-c-2 -->
+		<td class="td-image">
+							<img src="/image/gfx/invobjs/mallard-f.png" alt="mallard" />
+					</td>
+		<td >
+			Утка							<br />				<small>mallard</small>
+									<br />
+					<small>gfx/invobjs/mallard-f</small>
+													</td>
+		<!-- /pride-c-2 -->
+		<!-- dead -->
+		<td class="td-image">
+							<img src="/image/gfx/invobjs/mallard-dead-f.png" alt="mallard" />
+					</td>
+		<td >
+			Мертвая утка							<br />				<small>mallard</small>
+									<br />
+					<small>gfx/invobjs/mallard-dead-f</small>
+													</td>
+		<!-- /dead -->
+	</tr>
+	<tr>
+	<!-- icon -->
+	<td  class="td-image">
+					<img src="/image/gfx/kritter/mammoth/icon.png" alt="mammoth" />
+			</td>
+	<td  >
+		Мамонт					<br />			<small>mammoth</small>
+							<br />
+				<small>gfx/kritter/mammoth/icon</small>
+									</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>mammoth</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>mammoth</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>mammoth</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>mammoth</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>mammoth</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>mammoth</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>mole</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>mole</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/mole.png" alt="mole" />
+			</td>
+	<td  >
+		Крот					<br />			<small>mole</small>
+							<br />
+				<small>gfx/invobjs/mole</small>
+									</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/mole.png" alt="mole" />
+			</td>
+	<td >
+		Крот					<br />			<small>mole</small>
+							<br />
+				<small>gfx/invobjs/mole</small>
+									</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/mole-dead.png" alt="mole" />
+			</td>
+	<td >
+		Мертвый крот					<br />			<small>mole</small>
+							<br />
+				<small>gfx/invobjs/mole-dead</small>
+									</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/mole-carcass.png" alt="mole" />
+			</td>
+	<td  >
+		Тушка крота					<br />			<small>mole</small>
+							<br />
+				<small>gfx/invobjs/mole-carcass</small>
+									</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/mole-clean.png" alt="mole" />
+			</td>
+	<td  >
+		Выпотрошенная тушка крота					<br />			<small>mole</small>
+							<br />
+				<small>gfx/invobjs/mole-clean</small>
+									</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>moose</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/small/moose.png" alt="moose" />
+			</td>
+	<td  >
+		Туша лося					<br />			<small>moose</small>
+							<br />
+				<small>gfx/invobjs/small/moose</small>
+									</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>moose</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>moose</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>moose</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>moose</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>moose</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>mouflon</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>mouflon</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>mouflon</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>mouflon</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>mouflon</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>mouflon</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>mouflon</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>otter</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>otter</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>otter</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>otter</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>otter</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>otter</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>otter</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>pig</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>pig</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>pig</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>pig</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>pig</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>pig</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>pig</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>ptarmigan</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>ptarmigan</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/ptarmigan.png" alt="ptarmigan" />
+			</td>
+	<td  >
+		Куропатка					<br />			<small>ptarmigan</small>
+							<br />
+				<small>gfx/invobjs/ptarmigan</small>
+									</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/ptarmigan.png" alt="ptarmigan" />
+			</td>
+	<td >
+		Куропатка					<br />			<small>ptarmigan</small>
+							<br />
+				<small>gfx/invobjs/ptarmigan</small>
+									</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/ptarmigan-dead.png" alt="ptarmigan" />
+			</td>
+	<td >
+		Мертвая куропатка					<br />			<small>ptarmigan</small>
+							<br />
+				<small>gfx/invobjs/ptarmigan-dead</small>
+									</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/ptarmigan-plucked.png" alt="ptarmigan" />
+			</td>
+	<td  >
+		Ощипанная куропатка					<br />			<small>ptarmigan</small>
+							<br />
+				<small>gfx/invobjs/ptarmigan-plucked</small>
+									</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/ptarmigan-cleaned.png" alt="ptarmigan" />
+			</td>
+	<td  >
+		Выпотрошенная куропатка					<br />			<small>ptarmigan</small>
+							<br />
+				<small>gfx/invobjs/ptarmigan-cleaned</small>
+									</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td rowspan="3" class="td-image">
+			</td>
+	<td rowspan="3" >
+										<small>rabbit</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td rowspan="3" class="td-image">
+			</td>
+	<td rowspan="3" >
+										<small>rabbit</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td rowspan="3" class="td-image">
+					<img src="/image/gfx/invobjs/rabbit.png" alt="rabbit" />
+			</td>
+	<td rowspan="3" >
+		Кролик					<br />			<small>rabbit</small>
+							<br />
+				<small>gfx/invobjs/rabbit</small>
+									</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/rabbit.png" alt="rabbit" />
+			</td>
+	<td >
+		Кролик					<br />			<small>rabbit</small>
+							<br />
+				<small>gfx/invobjs/rabbit</small>
+									</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/rabbit-dead.png" alt="rabbit" />
+			</td>
+	<td >
+		Мертвый кролик					<br />			<small>rabbit</small>
+							<br />
+				<small>gfx/invobjs/rabbit-dead</small>
+									</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td rowspan="3" class="td-image">
+					<img src="/image/gfx/invobjs/rabbit-carcass.png" alt="rabbit" />
+			</td>
+	<td rowspan="3" >
+		Тушка кролика					<br />			<small>rabbit</small>
+							<br />
+				<small>gfx/invobjs/rabbit-carcass</small>
+									</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td rowspan="3" class="td-image">
+					<img src="/image/gfx/invobjs/rabbit-clean.png" alt="rabbit" />
+			</td>
+	<td rowspan="3" >
+		Выпотрошенная тушка кролика					<br />			<small>rabbit</small>
+							<br />
+				<small>gfx/invobjs/rabbit-clean</small>
+									</td>
+	<!-- /cleaned -->
+</tr>
+		<tr>
+		<!-- pride-c-2 -->
+		<td class="td-image">
+							<img src="/image/gfx/invobjs/rabbit-doe.png" alt="rabbit" />
+					</td>
+		<td >
+			Крольчиха							<br />				<small>rabbit</small>
+									<br />
+					<small>gfx/invobjs/rabbit-doe</small>
+													</td>
+		<!-- /pride-c-2 -->
+		<!-- dead -->
+		<td class="td-image">
+							<img src="/image/gfx/invobjs/rabbit-dead-doe.png" alt="rabbit" />
+					</td>
+		<td >
+			Мертвая крольчиха							<br />				<small>rabbit</small>
+									<br />
+					<small>gfx/invobjs/rabbit-dead-doe</small>
+													</td>
+		<!-- /dead -->
+	</tr>
+		<tr>
+		<!-- pride-c-2 -->
+		<td class="td-image">
+					</td>
+		<td class="td-change">
+														<small>rabbit</small>
+													<br />
+					<small>resource: yes</small>
+									</td>
+		<!-- /pride-c-2 -->
+		<!-- dead -->
+		<td class="td-image">
+							<img src="/image/gfx/invobjs/bunny-dead.png" alt="rabbit" />
+					</td>
+		<td >
+			Кровавое месиво...							<br />				<small>rabbit</small>
+									<br />
+					<small>gfx/invobjs/bunny-dead</small>
+													</td>
+		<!-- /dead -->
+	</tr>
+	<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>reddeer</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/small/reddeer.png" alt="reddeer" />
+			</td>
+	<td  >
+		Олень					<br />			<small>reddeer</small>
+							<br />
+				<small>gfx/invobjs/small/reddeer</small>
+									</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>reddeer</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>reddeer</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>reddeer</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>reddeer</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>reddeer</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>sheep</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>sheep</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>sheep</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>sheep</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>sheep</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>sheep</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>sheep</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+					<img src="/image/gfx/kritter/squirrel/icon.png" alt="squirrel" />
+			</td>
+	<td  >
+		Белка					<br />			<small>squirrel</small>
+							<br />
+				<small>gfx/kritter/squirrel/icon</small>
+									</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>squirrel</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/squirrel.png" alt="squirrel" />
+			</td>
+	<td  >
+		Белка					<br />			<small>squirrel</small>
+							<br />
+				<small>gfx/invobjs/squirrel</small>
+									</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/squirrel.png" alt="squirrel" />
+			</td>
+	<td >
+		Белка					<br />			<small>squirrel</small>
+							<br />
+				<small>gfx/invobjs/squirrel</small>
+									</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/squirrel-dead.png" alt="squirrel" />
+			</td>
+	<td >
+		Мертвая белка					<br />			<small>squirrel</small>
+							<br />
+				<small>gfx/invobjs/squirrel-dead</small>
+									</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/squirrel-carcass.png" alt="squirrel" />
+			</td>
+	<td  >
+		Тушка белки					<br />			<small>squirrel</small>
+							<br />
+				<small>gfx/invobjs/squirrel-carcass</small>
+									</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/squirrel-clean.png" alt="squirrel" />
+			</td>
+	<td  >
+		Выпотрошенная тушка белки					<br />			<small>squirrel</small>
+							<br />
+				<small>gfx/invobjs/squirrel-clean</small>
+									</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>swan</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>swan</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/swan.png" alt="swan" />
+			</td>
+	<td  >
+		Лебедь					<br />			<small>swan</small>
+							<br />
+				<small>gfx/invobjs/swan</small>
+									</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/swan.png" alt="swan" />
+			</td>
+	<td >
+		Лебедь					<br />			<small>swan</small>
+							<br />
+				<small>gfx/invobjs/swan</small>
+									</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+					<img src="/image/gfx/invobjs/swan-dead.png" alt="swan" />
+			</td>
+	<td >
+		Мертвый лебедь					<br />			<small>swan</small>
+							<br />
+				<small>gfx/invobjs/swan-dead</small>
+									</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/swan-plucked.png" alt="swan" />
+			</td>
+	<td  >
+		Ощипаный лебедь					<br />			<small>swan</small>
+							<br />
+				<small>gfx/invobjs/swan-plucked</small>
+									</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/swan-cleaned.png" alt="swan" />
+			</td>
+	<td  >
+		Выпотрошенный лебедь					<br />			<small>swan</small>
+							<br />
+				<small>gfx/invobjs/swan-cleaned</small>
+									</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>troll</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>troll</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>troll</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>troll</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>troll</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>troll</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>troll</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+					<img src="/image/gfx/kritter/walrus/icon.png" alt="walrus" />
+			</td>
+	<td  >
+		Морж					<br />			<small>walrus</small>
+							<br />
+				<small>gfx/kritter/walrus/icon</small>
+									</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>walrus</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>walrus</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>walrus</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>walrus</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>walrus</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>walrus</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>wildhorse</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>wildhorse</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>wildhorse</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>wildhorse</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>wildhorse</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>wildhorse</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>wildhorse</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+<tr>
+	<!-- icon -->
+	<td  class="td-image">
+			</td>
+	<td  class="td-change">
+										<small>wolverine</small>
+										<br />
+				<small>resource: yes</small>
+						</td>
+	<!-- /icon -->
+	<!-- small -->
+	<td  class="td-image">
+					<img src="/image/gfx/invobjs/small/wolverine.png" alt="wolverine" />
+			</td>
+	<td  >
+		Посомаха					<br />			<small>wolverine</small>
+							<br />
+				<small>gfx/invobjs/small/wolverine</small>
+									</td>
+	<!-- /small -->
+	<!-- pride-c-1 -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>wolverine</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-1 -->
+		<!-- pride-c-2 -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>wolverine</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /pride-c-2 -->
+	<!-- dead -->
+	<td class="td-image">
+			</td>
+	<td >
+										<small>wolverine</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /dead -->
+		<!-- carcass -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>wolverine</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /carcass -->
+	<!-- cleaned -->
+	<td  class="td-image">
+			</td>
+	<td  >
+										<small>wolverine</small>
+										<br />
+				<small>resource: no</small>
+						</td>
+	<!-- /cleaned -->
+</tr>
+</table>
+
+</body>
+</html>
